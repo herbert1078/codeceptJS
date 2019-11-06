@@ -1,0 +1,22 @@
+{
+  "name": "qa-ninja-project-codcetpjs",
+  "version": "1.0.0",
+  "description": "Qa Ninja",
+  "main": "index.js",
+  "scripts": {
+    "android": "codeceptjs run -c codecept.conf.js --override '{\"helpers\": {\"Appium\": { \"app\": \"/Users/hebertsoares/Documents/QaNinja/CodeceptJS/app-debug.apk\", \"platform\": \"Android\", \"desiredCapabilities\": { \"deviceName\": \"novao\", \"platformVersion\": \"10\", \"autoGrantPermissions\": true }}}}'",
+    "iOS": "codeceptjs run -c codecept.conf.js --override '{\"helpers\": {\"Appium\": { \"app\": \"/Users/herbert/Desktop/qaninja.app\", \"platform\": \"iOS\", \"desiredCapabilities\": {\"deviceName\": \"iPhone Xʀ\", \"platformVersion\": \"12.2\"}}}}'"
+  },
+  "author": "Qa Ninja",
+  "license": "ISC",
+  "dependencies": {
+    "appium-doctor": "^1.9.0",
+    "codeceptjs": "^2.0.8",
+    "webdriverio": "^5.16.0"
+  },
+  "bundledDependencies": [
+    "appium-doctor",
+    "codeceptjs",
+    "webdriverio"
+  ]
+}
