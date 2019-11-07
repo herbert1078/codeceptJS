@@ -1,5 +1,5 @@
 
-## 1-) Run sh dependencies:
+## 1-) Rodar o Sh com as Dependencias:
 
 Acessar o diretório por terminal e rodar o seguinte comando:
 $ sh install_dependencies.sh
@@ -21,3 +21,19 @@ Run: `$ source ~/.bash_profile`
 
 
 Se rodar o appium-doctor e aparecer problema no bin, por favor descomentar a ultima linha do bin e rodar o comando do passo 3 novamente.
+
+
+## 4-) Json para configurar o Appium Desktop:
+ Android: `{
+  "app": "/Users/hebertsoares/Documents/QaNinja/CodeceptJS/app-debug.apk",
+  "platformName": "android",
+  "platformVersion": "9",
+  "deviceName": "novo1"
+}`
+
+IOS: `{
+  "app": "/Users/hebertsoares/Documents/Qa Ninja/CodeceptJS/LoginExample.app",
+  "platformName": "iOS",
+  "platformVersion": "12.2",
+  "deviceName": "iPhone X"
+}`
