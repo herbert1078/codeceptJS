@@ -3,15 +3,13 @@ exports.config = {
   output: './output',
   helpers: {
     Appium: {
-      app: '/Users/hebertsoares/Downloads/9.24.0.android/app-release.apk',
-      platform: 'Android',
+      app: '/Users/hebertsoares/Documents/QaNinja/CodeceptJS/LoginExample.app',
+      platform: 'iOS',
       "host": "localhost",
       "port": 4723,
       desiredCapabilities: {
-        "appPackage": "br.com.brainweb.ifood",
-        "appActivity": "br.com.brainweb.ifood.mvp.splash.view.SplashScreenActivity",
-        "deviceName": "testinho",
-        "platformVersion": "7.1.1"
+        deviceName: "iPhone X",
+        platformVersion: "12.2",
       }
     }
   },
