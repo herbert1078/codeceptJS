@@ -28,6 +28,9 @@ exports.config = {
     steps: ['./step_definitions/steps.js']
   },
   plugins: {
+    "allure": {
+      
+    },
     screenshotOnFail: {
       enabled: true
     }

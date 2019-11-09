@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1573269243068' stop='1573269257376'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1573269243069' status='passed' stop='1573269256953'>
+            <name>Cadastro @Login2</name>
+            <title>Cadastro @Login2</title>
+            <labels>
+                <label name='tag' value='@Login2'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1573269252808' status='undefined'>
+                    <name>Given Que eu clico no botao de cadastrar </name>
+                    <title>Given Que eu clico no botao de cadastrar </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1573269252809' status='passed' stop='1573269255815'>
+                            <name>Eu aguardo 3</name>
+                            <title>Eu aguardo 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1573269255816' status='passed' stop='1573269255816'>
+                            <name>Eu run on android () => {
+                                  I.tap('SIGN UP');
+                              }</name>
+                            <title>Eu run on android () => {
+                                  I.tap('SIGN UP');
+                              }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1573269255816' status='passed' stop='1573269256952'>
+                            <name>Appium: _runWithCaps </name>
+                            <title>Appium: _runWithCaps </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1573269255816' status='passed' stop='1573269256952'>
+                                    <name>Eu tap "SIGN UP"</name>
+                                    <title>Eu tap "SIGN UP"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1573269256952' status='passed' stop='1573269256953'>
+                            <name>Given Que eu clico no botao de cadastrar </name>
+                            <title>Given Que eu clico no botao de cadastrar </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1573269256952' status='passed' stop='1573269256952'>
+                                    <name>Eu run on i o s () => {
+                                          I.tap('~btn_sign_up_login');
+                                      }</name>
+                                    <title>Eu run on i o s () => {
+                                          I.tap('~btn_sign_up_login');
+                                      }</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
