@@ -37,3 +37,7 @@ IOS: `{
   "platformVersion": "12.2",
   "deviceName": "iPhone X"
 }`
+
+## 5-) Arquivos de configurações de cada Plataforma Sem Gherkin:
+Codecept.config.js - Android: https://bit.ly/2UjhWcC
+Codecept.config.js - IOS: https://bit.ly/2ScvW5y
